@@ -3,35 +3,28 @@
   justify-content: space-between;
   background-color: white;
 }
-
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
-
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
-
 .dropdown-item:active {
   background-color: rgb(229, 229, 229);
   color: black
 }
-
 // Black navbar
 .navbar-lewagon-white {
   justify-content: space-between;
   background-color: black;
   color: white;
 }
-
 .navbar-lewagon-white .navbar-collapse {
   flex-grow: 0;
 }
-
 .navbar-lewagon-white .navbar-brand img {
   width: 40px;
 }
-
 // Uncomment for white writing on a black navbar
 .nav-link {
   color: $black;

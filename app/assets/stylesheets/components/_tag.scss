@@ -1,12 +1,10 @@
 .tag-item {
   display: inline-block;
 }
-
 .tag-selector {
   position: absolute;
   transform: scale(0);
 }
-
 .tag-selector + label {
   cursor: pointer;
   display: inline-block;
@@ -18,24 +16,19 @@
   margin-right: 0.6rem;
   margin-bottom: 0.4rem;
 }
-
 .tag-selector:checked + label {
   // background-color: #AFD189;
   color: $black;
 }
-
 .bg-blue {
   background-color: $pop-blue;
 }
-
 .bg-green {
   background-color: $pop-green;
 }
-
 .bg-purple {
   background-color: $pop-purple;
 }
-
 .bg-orange {
   background-color: $pop-orange;
 }

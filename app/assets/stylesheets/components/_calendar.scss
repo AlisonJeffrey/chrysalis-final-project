@@ -4,7 +4,6 @@
     height: 60px;
   }
 }
-
 .simple-calendar {
   .day {
     background-color: white;
@@ -71,42 +70,33 @@
 
   }
 }
-
 .calendar-content {
   width: 50px;
   border-radius: 5px;
   height: 100%;
 }
-
 .emotion-1 {
   background-color: $emotion-1;
 }
-
 .emotion-2 {
   background-color: $emotion-2;
 }
-
 .emotion-3 {
   background-color: $emotion-3;
 }
-
 .emotion-4 {
   background-color: $emotion-4;
 }
-
 .emotion-5 {
   background-color: $emotion-5;
 }
-
 .emotion-6 {
   background-color: $emotion-6;
 }
-
 .emotion-7 {
   background-color: $emotion-7;
 }
-
-// emoji indicator
+// Emoji indicator
 .box-wrapper {
   display: flex;
   justify-content: center;
@@ -115,19 +105,15 @@
   height: 40px;
   width: 40px;
 }
-
 .emotion-icon {
   width: 40px;
   height: 40px;
 }
-
 .boxes {
   padding: 0 20px;
   display: flex;
   flex-direction: row;
 }
-
-
 .calendar-heading {
   display: flex;
   justify-content: space-between;
@@ -178,7 +164,6 @@
     width: 100%;
   }
 }
-
 .table.table-striped {
   --bs-table-striped-bg: initial;
 }

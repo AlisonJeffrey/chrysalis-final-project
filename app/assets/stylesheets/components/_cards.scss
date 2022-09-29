@@ -2,12 +2,10 @@
   // background-color: none;
   // border: none;
 }
-
 .card {
   background-color: #FAFAFA;
   border: none;
 }
-
 .resource-card {
   background-color: #FAFAFA;
   list-style: none;
@@ -20,12 +18,10 @@
     }
   }
 }
-
 .card-quote {
   background-color: #FAFAFA;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
-
 .card-product {
   // overflow: hidden;
   height: 80px;
@@ -37,19 +33,16 @@
   display: flex;
   align-items: center;
 }
-
 // .card-product img {
 //   height: 100%;
 //   width: 120px;
 //   object-fit: cover;
 // }
-
 .card-product h2 {
   font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
-
 .card-product p {
   font-size: 12px;
   line-height: 1.4;
@@ -57,11 +50,9 @@
   margin-bottom: 0;
   margin-top: 8px;
 }
-
 .card-product .card-product-infos {
   padding: 16px;
 }
-
 // Progress index
 .progress-card {
   background-color: #fafafa;
@@ -70,7 +61,6 @@
   margin-top: 60px;
   padding-bottom: 60px;
 }
-
 // For the articles page
 .card-trip {
   overflow: hidden;
@@ -82,26 +72,22 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 }
-
 .card-trip > img {
   height: 200px;
   width: 100%;
   object-fit: cover;
   margin: 0;
 }
-
 .card-trip h2 {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-
 .card-trip p {
   font-size: 14px;
   opacity: .7;
   margin: 0;
 }
-
 .card-trip .card-trip-infos {
   padding: 16px;
   display: flex;
@@ -109,7 +95,6 @@
   align-items: flex-end;
   position: relative;
 }
-
 .card-trip-infos .card-trip-pricing {
   position: absolute;
   right: 15px;
@@ -117,13 +102,11 @@
   width: 40px;
   text-align: center;
 }
-
 .card-trip-infos .badge {
   margin-bottom: auto;
   margin-top: 10px;
   justify-content: center;
 }
-
 .card-link {
   position: absolute;
   top: 0;
@@ -131,13 +114,11 @@
   width: 100%;
   bottom: 0;
 }
-
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
 }
-
 // For dashboard article card
 .card-trip-article {
   overflow: hidden;
@@ -153,26 +134,22 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 }
-
 .card-trip-article > img {
   height: 300px;
   width: 100%;
   object-fit: cover;
   margin: 0;
 }
-
 .card-trip-article h2 {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-
 .card-trip-article p {
   font-size: 14px;
   opacity: .7;
   margin: 0;
 }
-
 .card-trip-article .card-trip-infos-article {
   padding: 16px;
   display: flex;
@@ -180,7 +157,6 @@
   align-items: flex-end;
   position: relative;
 }
-
 .card-trip-infos-article .card-trip-pricing-article {
   position: absolute;
   right: 15px;
@@ -188,48 +164,41 @@
   width: 40px;
   text-align: center;
 }
-
 .card-trip-infos-article .badge {
   margin-bottom: auto;
   margin-top: 10px;
   justify-content: center;
 }
-
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
   }
 }
-
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
   }
 }
-
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
 }
-
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
 // For journal card/streak card on dashboard
 .card.card-dash {
   text-align: center;
@@ -237,11 +206,9 @@
   border-radius: 15px;
   overflow: hidden;
 }
-
 a:link {
   text-decoration: none;
 }
-
 // For goals and calendar/article
 .card.card-dash-goals {
   height: 540px;
