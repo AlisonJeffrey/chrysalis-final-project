@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
   def index
     @articles = Article.all
     @articles = policy_scope(Article)
-    # location
+    # Location
     @locations = Location.all
     @markers = @locations.geocoded.map do |location|
       {

@@ -25,19 +25,6 @@ class UsersController < ApplicationController
     url = "https://zenquotes.io/api/quotes"
     response = URI.open(url).read
     quotes_array = JSON.parse(response)
-    {quote: quotes_array.first["q"], author: quotes_array.first["a"]}
+    { quote: quotes_array.first["q"], author: quotes_array.first["a"] }
   end
-
-  # def fetch_author
-  #   url = "https://zenquotes.io/api/quotes"
-  #   response = URI.open(url).read
-  #   quotes_array = JSON.parse(response)
-  #   quotes_array.first["a"]
-  # end
-
-  # def fetch_quotes
-  #   require "json"
-  #   require "open-uri"
-  #   HTTP.get("https://zenquotes.io/api/quotes")
-  # end
 end

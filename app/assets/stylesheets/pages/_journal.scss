@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .journal {
   width: 100%;
   background-color: $white;
@@ -11,18 +10,15 @@
   padding: 5px 35px;
   border-radius: 5px;
 }
-
 .journal-box {
   background-color: $vibrant-green;
   width: 800px;
   height: auto;
   border-radius: 5px;
 }
-
 .journals {
   margin-bottom: 20px;
 }
-
 .journal-link {
   color: black;
   text-decoration: none;
@@ -33,7 +29,6 @@
     font-weight: bold;
   }
 }
-
 .journal-title-wrapper {
   position: relative;
   margin-bottom: 1%;
@@ -42,7 +37,6 @@
   justify-content: space-between;
   padding-top: 30px;
 }
-
 .journal-icon {
   width: 50px;
   height: auto;
@@ -50,7 +44,6 @@
   top: 47px;
   left: -70px;
 }
-
 .content-wrapper {
   width: 80%;
   justify-content: center;
@@ -58,55 +51,44 @@
   margin-bottom: 60px;
   border-radius: 5px;
 }
-
 .add-journal-wrapper {
   margin: 30px;
   padding: 1em;
 }
-
 .tab-journal {
   display: flex;
 }
-
 .dropdown-menu>li>a {
   text-align: center;
 }
-
 .emotion-border-1 {
   border: 2px solid $emotion-1;
   box-shadow: $emotion-1 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, $emotion-1 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, $emotion-1 20px -20px;
 }
-
 .emotion-border-2 {
   border: 2px solid $emotion-2;
   box-shadow: $emotion-2 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, $emotion-2 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, $emotion-2 20px -20px;
 }
-
 .emotion-border-3 {
   border: 2px solid $emotion-3;
   box-shadow: $emotion-3 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, $emotion-3 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, $emotion-3 20px -20px;
 }
-
 .emotion-border-4 {
   border: 2px solid $emotion-4;
   box-shadow: $emotion-4 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, $emotion-4 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, $emotion-4 20px -20px;
 }
-
 .emotion-border-5 {
   border: 2px solid $emotion-5;
   box-shadow: $emotion-5 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, $emotion-5 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, $emotion-5 20px -20px;
 }
-
 .emotion-border-6 {
   border: 2px solid $emotion-6;
   box-shadow: $emotion-6 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, $emotion-6 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, $emotion-6 20px -20px;
 }
-
 .emotion-border-7 {
   border: 2px solid $emotion-7;
   box-shadow: $emotion-7 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, $emotion-7 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, $emotion-7 20px -20px;
 }
-
 .emotion-score-wrapper {
   text-align:center;
   display: flex;
