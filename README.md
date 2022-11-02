@@ -4,11 +4,7 @@
 
 #### Landing page
 
-<img width="1712" alt="Screenshot 2022-09-29 at 15 51 44" src="https://user-images.githubusercontent.com/108048809/192960016-3f5c1195-2e2c-4009-b85c-59f2fdc3ce86.png">
-
-<img width="1710" alt="Screenshot 2022-09-29 at 15 51 56" src="https://user-images.githubusercontent.com/108048809/192960028-9b3aea64-3a01-49a9-9d39-a3af7dd652ad.png">
-
-<img width="1713" alt="Screenshot 2022-09-29 at 15 52 11" src="https://user-images.githubusercontent.com/108048809/192960040-e9a13e6b-5b5a-46eb-b73c-2aadb5005d09.png">
+![image](https://user-images.githubusercontent.com/108048809/199498350-b28db4d4-c792-47f5-a9ca-a1e0dd3fb44f.png)
 
 #### Dashboard
 
